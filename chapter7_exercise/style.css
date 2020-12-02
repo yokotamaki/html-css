@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 400px;
+}
+.logo {
+  padding: 20px;
+}
+.contents {
+  width: 840px;
+  margin: 0 auto;
+}
+.content {
+  border-bottom: solid rgb(185, 185, 185) 1px;
+  padding: 30px 0;
+}
+.content:first-child {
+  padding-top: 50px;
+}
+.content:last-child {
+  margin-bottom: 50px;
+}
